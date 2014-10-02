@@ -66,7 +66,9 @@ static bool has_ghost_in_row(uint8_t row)
 }
 #endif
 
+#ifdef PS2_MOUSE_ENABLE
 extern uint8_t ps2_mouse_enabled;
+#endif
 
 void keyboard_init(void)
 {
