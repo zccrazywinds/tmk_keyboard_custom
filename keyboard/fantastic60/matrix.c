@@ -156,7 +156,7 @@ static void  init_cols(void)
 
 static matrix_row_t read_cols(void)
 {
-    return ~PINF;
+    return ~PIND;
 }
 
 /* Row pin configuration
