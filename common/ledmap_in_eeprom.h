@@ -4,7 +4,7 @@
 #include "ledmap.h"
 
 #ifndef EECONFIG_LEDMAP_IN_EEPROM
-#define EECONFIG_LEDMAP_IN_EEPROM 7
+#define EECONFIG_LEDMAP_IN_EEPROM 8
 #endif
 
 #define EECONFIG_LEDMAP (uint16_t*)EECONFIG_LEDMAP_IN_EEPROM
