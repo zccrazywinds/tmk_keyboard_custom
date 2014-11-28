@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
+#define PRODUCT_ID      0x1010
 #define DEVICE_VER      0x0002
 #define MANUFACTURER    geekhack
 #define PRODUCT         GHPad
@@ -34,6 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* keymap in eeprom */
 #define FN_ACTIONS_COUNT 32
 #define KEYMAPS_COUNT 32
+#define EECONFIG_KEYMAP_IN_EEPROM 0x11
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -43,7 +44,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* number of backlight levels */
 #define BACKLIGHT_LEVELS 8
+#define BACKLIGHT_CUSTOM
 
+/* number of leds */
 #define LED_COUNT 5
 
 /* number of backlight levels */
