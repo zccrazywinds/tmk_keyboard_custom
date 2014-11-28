@@ -34,6 +34,7 @@ typedef union {
     };
 } ledmap_t;
 
+#define LEDMAP_NO                   (LEDMAP_BINDING_NO)
 #define LEDMAP_DEFAULT_LAYER(layer) (LEDMAP_BINDING_DEFAULT_LAYER<<8 | layer)
 #define LEDMAP_LAYER(layer)         (LEDMAP_BINDING_LAYER<<8 | layer )
 #define LEDMAP_NUM_LOCK             (LEDMAP_BINDING_USB_LED<<8 | LEDMAP_USB_LED_NUM_LOCK)
